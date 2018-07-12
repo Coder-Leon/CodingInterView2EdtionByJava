@@ -1,7 +1,7 @@
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-public class Code09_StacksWithTwoQueues {
+public class Code09_StackWithTwoQueues {
 
     Queue<Integer> queue1 = new ArrayDeque<Integer>();
     Queue<Integer> queue2 = new ArrayDeque<Integer>();
@@ -34,7 +34,7 @@ public class Code09_StacksWithTwoQueues {
     }
 
     public static void main(String[] args) throws Exception{
-        Code09_StacksWithTwoQueues code09 = new Code09_StacksWithTwoQueues();
+        Code09_StackWithTwoQueues code09 = new Code09_StackWithTwoQueues();
         code09.push(1);
         code09.push(2);
         System.out.println(code09.pop());
